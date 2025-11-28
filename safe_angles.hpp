@@ -7,7 +7,7 @@ namespace mkp::trigo {
 
     template<typename T>
     consteval T degrees_to_radians_factor() {
-        return std::numbers::pi_v<T> / T(180);
+        return std::numbers::pi_v<T> / T(180.);
     }
 
     template<typename T>
